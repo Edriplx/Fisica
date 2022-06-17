@@ -6,24 +6,8 @@
     text-decoration: none;
 }
 
-div#banner{
-    margin-right: 20px;
-    margin-top: 10px;
-    float: right;
-    width: 1200px;
-    height: 100px;
-    background-color: rgb(110, 110, 154);
-}
-
-div#finalbanner{
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px; 
-    display: flex;  
-    float: right;
-    width: 1500px;
-    height: 30px;
-    background-color: rgb(110, 110, 154);
+body {
+background-color: rgba(223, 179, 35, 0.623);
 }
 
 html{
@@ -55,7 +39,7 @@ html{
 }
 
 #imgl{
-    margin-left: 20px;
+    margin-inline: 600px;
     margin-top: 10px;
 }
 #img1, #img2{
@@ -64,27 +48,19 @@ html{
 }
 
 #img1{
-    float: right;
-    margin-right: 20px;
+    float: center;
+    margin-inline: 550px;
 }
 
 #img2{
-    float: left;
-    margin-left: 20px;
+    float: center;
+    margin-inline: 550px;
 }
 
 #video{
-    margin-right: 20px;
+    margin-inline: 425px;
     margin-top: 10px;
-    float: right;
+    float: center;
 }
 
-#img3{
-    margin-left: 20px;
-    margin-top: 10px;
-    width: 560px;
-    height: 315px;
-}
-#link1, #link2, #link3{
-    margin: 20px;
-}
+
