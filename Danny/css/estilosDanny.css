@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+background-color: rgba(223, 179, 35, 0.623);
+}
+
+html{
+    font-family: "Open+Sans", sans-serif;
+}
+
+.container{
+    widows: 100;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.container p{
+    text-align: justify-all;
+    margin-top: 10px;
+    font-size: 17px;
+    margin: 20px;
+}
+
+.container h2, h3{
+    margin: 20px;
+}
+
+#imgl{
+    margin-inline: 600px;
+    margin-top: 10px;
+}
+#img1, #img2{
+    width: 250px;
+    height: 110px;
+}
+
+#img1{
+    float: center;
+    margin-inline: 550px;
+}
+
+#img2{
+    float: center;
+    margin-inline: 550px;
+}
+
+#video{
+    margin-inline: 425px;
+    margin-top: 10px;
+    float: center;
+}
+
+
